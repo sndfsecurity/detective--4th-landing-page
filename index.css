@@ -536,7 +536,7 @@ footer{
  @media(max-width:768px){
 
   .hero{
-    height:78vh;
+    height:85vh;
 
     background:
     linear-gradient(
@@ -622,7 +622,7 @@ footer{
   }
 
   .logo{
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .timeline-content h3{
