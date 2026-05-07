@@ -70,7 +70,7 @@ img{
   letter-spacing: 1px;
   display:flex;
   align-items:center;
-  gap:12px;
+  gap:10px;
 
 }
 
@@ -623,6 +623,7 @@ footer{
 
   .logo{
     font-size: 18px;
+    letter-spacing: 0.2px;
   }
 
   .timeline-content h3{
