@@ -467,6 +467,15 @@ img{
     letter-spacing: 1px;
 }
 
+.contact-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  color: #00cfff;
+}
+
 
 .contact-form{
   background:var(--secondary);
@@ -499,14 +508,76 @@ img{
   
 }
 
-/* FOOTER */
 
-footer{
-  padding:30px 0;
-  text-align:center;
-  border-top:1px solid rgba(255,255,255,0.05);
-  color:var(--gray);
+/* FOOTER */
+.footer {
+  background: #07111f;
+  border-top: 1px solid rgba(0, 207, 255, 0.12);
+  padding: 28px 20px;
+  text-align: center;
 }
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Top Text */
+.footer-extra {
+  margin-bottom: 14px;
+}
+
+.footer-extra p {
+  margin: 6px 0;
+  color: #c7d3e0;
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+.footer-extra span {
+  color: #00cfff;
+  font-weight: 600;
+}
+
+/* Privacy Line */
+.privacy-text {
+  color: #94a3b8 !important;
+  font-size: 14px !important;
+  
+}
+
+/* Copyright */
+.footer-bottom {
+  color: #7f8ea3;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 24px 15px;
+  }
+
+  .footer-extra p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .privacy-text {
+    font-size: 12px !important;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+}
+
+
 
 /* RESPONSIVE */
 
@@ -652,3 +723,5 @@ footer{
    }
 
 }
+
+
