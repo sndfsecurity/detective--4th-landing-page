@@ -536,7 +536,7 @@ footer{
  @media(max-width:768px){
 
   .hero{
-    height:85vh;
+    height:100vh;
 
     background:
     linear-gradient(
