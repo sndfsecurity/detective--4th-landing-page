@@ -622,7 +622,8 @@ footer{
   }
 
   .logo{
-    font-size: 21px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
   }
 
   .timeline-content h3{
