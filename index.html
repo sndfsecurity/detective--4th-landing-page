@@ -13,12 +13,17 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
 </head>
+
+<!-- ndfdetectiveforce.in -->
 
 <body>
 
@@ -162,7 +167,7 @@
         <div class="why-right">
 
           <img
-          src="images/img5.png"
+          src="images/img5.webp"
             alt="">
 
         </div>
@@ -372,20 +377,34 @@
 
         <div class="contact-form">
 
-          <form>
+        <form id="contactForm" class="contact-form" action="https://formsubmit.co/sndf4315@gmail.com" method="POST">
 
-            <input type="text" placeholder="Your Name">
 
-            <input type="text" placeholder="Phone Number">
+            <!-- <input type="text" placeholder="Your Name"> -->
 
-            <textarea placeholder="Your Message"></textarea>
+             <input type="text" name="Full Name" placeholder="Enter your full name" 
+             oninput="this.value = this.value.replace(/[^A-Za-z ]/g, '')" required>
 
-            <button class="btn btn-primary">
+            <input  type="tel"  name="mobile" placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}"
+            maxlength="10" minlength="10"  inputmode="numeric" required
+            oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
+
+            <textarea placeholder="Your Message" name="msg"></textarea>
+
+            <button type="submit" class="btn btn-primary">
               Send Message
             </button>
-            <p style="text-align: center;margin-top: 15px;" class="contact-text">Your information is 100% confidential and secure.
 
-            </p>
+            <p style="text-align: center;margin-top: 15px;" class="contact-text">Your information is 100% confidential and secure.</p>
+
+
+                <input type="hidden" name="_subject" value="🚨 New Detective Enquiry">
+
+                <input type="hidden" name="_template" value="table">
+
+                <input type="hidden" name="_next" value="https://detectivepune.in//thankyou.html">
+
+                <input type="hidden" name="_captcha" value="false">
 
           </form>
 
@@ -419,6 +438,15 @@
 
   </div>
 </footer>
+
+<a href="https://wa.me/918007341905" class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<button class="floating-call" onclick="window.location.href='tel:+918007341570'"  aria-label="Call detective agency now">
+    <i class="fas fa-phone"></i>
+</button>
+
 
 </body>
 
