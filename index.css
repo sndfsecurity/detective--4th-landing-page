@@ -645,7 +645,7 @@ img{
         rgba(11,18,32,0.20) 68%,
         rgba(11,18,32,0.05) 100%
     ),
-    url('images/bg.png');
+    url('images/bg.webp');
 
     background-size:cover;
     background-position:81% center;
